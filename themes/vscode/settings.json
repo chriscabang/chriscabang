@@ -1,0 +1,93 @@
+{
+    // Author: Chris Cabang
+    // Summary: Focus / Minimalist settings for VSCode
+    // Theme: Noir Cobalt
+    // Reference : 
+    //  - https://code.visualstudio.com/docs/getstarted/settings#_default-settings
+    //  - https://code.visualstudio.com/docs/getstarted/userinterface
+
+
+    // Set: View->Appearance->Centered Layout
+
+    "workbench.colorTheme": "Noir Cobalt",
+
+    // Global
+
+    "breadcrumbs.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.commandCenter": false,
+    "window.title": " ",
+    // NOTE: Windows ONLY
+    // "window.menuBarVisibility": "toggle",
+
+    // Editor
+
+    "editor.bracketPairColorization.enabled": false,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.fontSize": 12,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.guides.indentation": false,
+    "editor.glyphMargin": true,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.padding.top": 40,
+    "editor.padding.bottom": 40,
+    "editor.renderLineHighlight": "gutter",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        {
+            "column": 120,
+            "color": "#2e2e2e"
+        }
+    ],
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.tabSize": 2,
+
+    // Explorer
+
+    // "explorer.decorations.colors": false,
+    "explorer.openEditors.visible": 1,
+
+    // Workbench
+
+    "workbench.activityBar.location": "side",
+    "workbench.colorCustomizations": {
+        "editorWhitespace.foreground": "#3a3a3a",
+        "editorLineNumber.foreground": "#2e2e2e",
+
+        // Terminal
+
+        "terminal.background":"#0e1f2c", //"#1D2021",
+        "terminal.foreground":"#bbbbbb", //"#A89984",
+        "terminalCursor.background":"#ffc600", //"#A89984",
+        "terminalCursor.foreground":"#ffc600", //"#A89984",
+        "terminal.ansiBlack":"#1D2021",
+        "terminal.ansiBlue":"#0D6678",
+        "terminal.ansiBrightBlack":"#665C54",
+        "terminal.ansiBrightBlue":"#0D6678",
+        "terminal.ansiBrightCyan":"#8BA59B",
+        "terminal.ansiBrightGreen":"#95C085",
+        "terminal.ansiBrightMagenta":"#8F4673",
+        "terminal.ansiBrightRed":"#FB543F",
+        "terminal.ansiBrightWhite":"#FDF4C1",
+        "terminal.ansiBrightYellow":"#FAC03B",
+        "terminal.ansiCyan":"#8BA59B",
+        "terminal.ansiGreen":"#95C085",
+        "terminal.ansiMagenta":"#8F4673",
+        "terminal.ansiRed":"#FB543F",
+        "terminal.ansiWhite":"#A89984",
+        "terminal.ansiYellow":"#FAC03B"
+    },
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.labelFormat": "short",
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "workbench.tree.renderIndentGuides": "none"
+    
+}
