@@ -1,41 +1,6 @@
 ### Hey There! 👋
 
 ```yaml
-name: Chris Cabang
-location: Eindhoven, The Netherlands
-about_me: strong foundation in computer engineering, design and logical
-  reasoning, along with a passion for tackling complex problems using systematic 
-  and creative approaches.
-
-education:
-  - Bachelor's in Computer Engineering
-
-fields_of_interests:
-  - Dynamic Programming
-  - Cryptography
-  - Robotics
-  - UI/UX
-  - Rick and Morty
-  - Anything that is useful
-
-technical_background:
-  - DevOps / Feature Integrator
-  - Techincal Lead Engineer
-  - Senior Firmware Engineer
-  - Senior Software Engineer
-
-currently_learning:
-  - jupyter
-  - electron
-  - Azure
-  - AWS
-  - DevOps best practices
-
-hobbies:
-  - Traditional Art
-  - Brazilian Jiu Jitsu
-  - Cinema
-  - Comedy
 ```
 
 ### Langauge and tools
